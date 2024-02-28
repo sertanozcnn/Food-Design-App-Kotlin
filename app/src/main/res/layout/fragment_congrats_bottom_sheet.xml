@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CongratsBottomSheet">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="105dp"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="@string/congrats_nyour_order_place"
+            android:textAlignment="center"
+            android:textColor="@color/greenWhite"
+            android:textSize="@dimen/_20ssp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_check_cong"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/goHome"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="75dp"
+            android:background="@drawable/add_to_card_background"
+            android:elevation="5dp"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="@string/go_home"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+
+</FrameLayout>

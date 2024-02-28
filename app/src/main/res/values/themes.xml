@@ -1,0 +1,104 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FlavorStopApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Theme.FlavorStopApp" parent="Base.Theme.FlavorStopApp" />
+
+    <!--MainButtonStyle-->
+
+    <style name="MainButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/start_main_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_bold</item>
+        <item name="android:text">@string/next</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="LoginButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/green_button_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/kanit_bold</item>
+        <item name="android:text"></item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="elevation">5dp</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+        <item name="android:drawablePadding">@dimen/_10sdp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="OrButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/or_button_background</item>
+        <item name="android:fontFamily">@font/kanit</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/blackGray</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+
+
+    <style name="ShapeAppearanceOverlay.MyApp.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="srcCompat">@drawable/ic_menu_cart</item> <!-- srcCompat özelliğini ekleyin -->
+    </style>
+
+    <style name="ProfileEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+        <item name="android:drawablePadding">@dimen/_10sdp</item>
+        <item name="android:ems">10</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+
+
+    <!-- res/values/styles.xml -->
+    <!-- res/values/styles.xml -->
+    <style name="BottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="itemIconTint">@color/blackGray</item>
+        <item name="itemTextColor">@color/blackGray</item>
+        <item name="labelVisibilityMode">selected</item>
+        <item name="android:stateListAnimator">@animator/bottom_navigation_state_list_animator</item>
+    </style>
+
+    <style name="SearchStyle" parent="Widget.AppCompat.SearchView">
+
+        <item name="android:background">@drawable/search_background</item>
+
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textAppearance">@font/kanit</item>
+        <item name="searchIcon">@drawable/ic_search_fragment</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="SaveButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/save_button_background</item>
+        <item name="android:textColor">@color/greenWhite</item>
+        <item name="android:fontFamily">@font/kanit_bold</item>
+        <item name="android:text">Save Information</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="elevation">5dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

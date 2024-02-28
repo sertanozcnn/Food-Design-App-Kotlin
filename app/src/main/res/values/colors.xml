@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFCB58</color>
+    <color name="colorPrimaryDark">#FFC955</color>
+    <color name="colorAccent">#FFCB58</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#696D70</color>
+    <color name="grayWhite">#C0C8CE</color>
+    <color name="green">#6AA31F</color>
+    <color name="greenWhite">#87BF1B</color>
+    <color name="blackGray">#2B2825</color>
+    <color name="grayInputStrokeColor">#C0C8CE</color>
+    <color name="or_button_background_color">#FFFFFF</color>
+    <color name="red">#ED4F48</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
